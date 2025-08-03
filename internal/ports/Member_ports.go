@@ -1,6 +1,6 @@
 package ports
 import (
-    "/internal/domain"
+    "github.com/nigelpage/HBCMembers/internal/domain"
 )
 type MemberRepository interface {
     Save(member *domain.Member) error

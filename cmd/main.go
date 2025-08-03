@@ -1,7 +1,7 @@
 package main
 import (
     "log"
-    "/internal/application"
+    
 )
 func main() {
     app := application.NewApp()
