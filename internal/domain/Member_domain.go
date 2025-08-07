@@ -1,4 +1,5 @@
 package domain
+
 type Member struct {
     MembershipNumber   int          `json:"id"`
     FirstName          string       `json:"firstName"`
